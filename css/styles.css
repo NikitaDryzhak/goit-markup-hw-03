@@ -110,6 +110,14 @@ body {
 }
 
 /* Главный экран */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-screen {
   background: var(--secondary-background-color);
   width: 1600px;
@@ -150,12 +158,14 @@ body {
   margin-bottom: 94px;
 }
 
-.features > .list-features {
+.list-features {
   display: flex;
-  width: 1200px;
+  /*width: 1200px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px;*/
 
+  margin-top: 0;
+  margin-bottom: 0;
   margin-right: auto;
   margin-left: auto;
   list-style: none;
@@ -187,20 +197,24 @@ body {
   font-size: 36px;
   color: var(--primary-text-color);
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .tasks {
-  width: 1200px;
+  /*width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
+  margin-right: auto;*/
+  padding-bottom: 94px;
 }
 .tasks > .list {
   display: flex;
   padding-left: 0px;
   justify-content: space-around;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .tasks-image {
   margin-right: 30px;
@@ -214,7 +228,10 @@ body {
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .list-team {
   list-style: none;
 }
@@ -227,21 +244,19 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 50px;
-  padding-top: 94px;
 }
 .team {
   background: var(--third-background-color);
 }
 .list-team {
   display: flex;
-  width: 1200px;
+  /*width: 1200px;
   margin-top: 0px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;*/
   margin-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
 }
 .team li {
   margin-right: 30px;
@@ -326,8 +341,9 @@ body {
 .filter .list {
   display: flex;
   justify-content: center;
-
+  padding-left: 0;
   margin-bottom: 34px;
+  margin-top: 0;
 }
 .filter li {
   margin-right: 8px;
@@ -391,18 +407,20 @@ body {
   padding-bottom: 20px;
 }
 
-.product-card {
+/*.product-card {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+}*/
 
 .product-card .list {
   padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .product-card li {
   margin-right: 30px;
