@@ -45,8 +45,6 @@ body {
   font-size: 26px;
   text-decoration: none;
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 
 .color-text {
@@ -57,8 +55,8 @@ body {
 .header {
   font-style: normal;
   font-weight: 500;
-  width: 1600px;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: auto;
   margin-left: auto;
   font-size: 14px;
@@ -76,9 +74,10 @@ body {
 .list-header {
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
+  text-decoration: none;
 }
 
 .list-header li:not(:last-child) {
@@ -92,8 +91,8 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
 }
 
@@ -131,12 +130,12 @@ body {
 
 .hero-screen {
   background: var(--secondary-background-color);
-  width: 1600px;
+  max-width: 1600px;
 
   margin-right: auto;
   margin-left: auto;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .title-primary {
   color: var(--background-color);
@@ -237,7 +236,7 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team {
   background: var(--third-background-color);
@@ -263,12 +262,16 @@ body {
   font-size: 16px;
   color: var(--primary-text-color);
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .team p {
   font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-employee {
@@ -320,9 +323,9 @@ body {
 }
 /*Portfolio*/
 .main-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   margin-left: auto;
   margin-right: auto;
 }
